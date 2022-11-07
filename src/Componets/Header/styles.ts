@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.header`
   width: 100%;
-  height: 150px;
+  height: 120px;
 
   display: flex;
   justify-content: center;
@@ -31,6 +31,7 @@ export const Logo = styled.div`
   & > span {
     font-size: 1rem;
     color: #6f7076;
+    text-transform: uppercase;
   }
 `;
 
